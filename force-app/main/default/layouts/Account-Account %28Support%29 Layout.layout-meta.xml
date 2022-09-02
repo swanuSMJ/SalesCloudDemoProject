@@ -45,6 +45,10 @@
                 <behavior>Edit</behavior>
                 <field>TimeLine_for_Procurements__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Account_description__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

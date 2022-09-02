@@ -518,7 +518,8 @@
         <name>WorkflowTask</name>
     </types>
     <types>        
-        <members>LeadConfig</members>        
+        <members>LeadConfig</members>
+        <members>*</members>        
         <name>Settings</name>
     </types>
     <version>54.0</version>
