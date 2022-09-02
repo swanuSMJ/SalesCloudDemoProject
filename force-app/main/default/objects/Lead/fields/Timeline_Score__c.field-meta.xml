@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timeline_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL( Timeline__c ,&quot;Scheduled identified :Compelling Event&quot;),1,
+IF(ISPICKVAL( Timeline__c ,&quot;No Scheduled identified :No Compelling Event&quot;),0,0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Timeline Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

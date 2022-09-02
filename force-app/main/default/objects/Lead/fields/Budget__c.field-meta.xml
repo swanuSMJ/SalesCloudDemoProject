@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget__c</fullName>
+    <externalId>false</externalId>
+    <label>Budget</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Budget confirmed: Amount Unknown</fullName>
+                <default>false</default>
+                <label>Budget confirmed: Amount Unknown</label>
+            </value>
+            <value>
+                <fullName>Budget confirmed :Amount known</fullName>
+                <default>false</default>
+                <label>Budget confirmed :Amount known</label>
+            </value>
+            <value>
+                <fullName>Budget Not Confirmed</fullName>
+                <default>false</default>
+                <label>Budget Not Confirmed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

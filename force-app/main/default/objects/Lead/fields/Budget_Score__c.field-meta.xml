@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Budget__c,&quot;Budget confirmed :Amount known&quot;),3,
+IF(ISPICKVAL(Budget__c,&quot;Budget confirmed: Amount Unknown&quot;),1,
+IF(ISPICKVAL(Budget__c,&quot;Budget Not Confirmed&quot;),0,0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Budget Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Need__c</fullName>
+    <externalId>false</externalId>
+    <label>Need</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Urgent Need</fullName>
+                <default>false</default>
+                <label>Urgent Need</label>
+            </value>
+            <value>
+                <fullName>Intermediate Need</fullName>
+                <default>false</default>
+                <label>Intermediate Need</label>
+            </value>
+            <value>
+                <fullName>No urgent Need</fullName>
+                <default>false</default>
+                <label>No urgent Need</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
