@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PhoneRequired</fullName>
+    <active>true</active>
+    <description>Phone or Email should be entered</description>
+    <errorConditionFormula>AND(ISBLANK( Phone ),ISBLANK(  Email  ))</errorConditionFormula>
+    <errorMessage>Please Enter your Phone number or Email</errorMessage>
+</ValidationRule>
