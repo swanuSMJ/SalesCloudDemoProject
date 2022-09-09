@@ -31,4 +31,10 @@
         <label>In Progress(Swanupam added)</label>
         <converted>false</converted>
     </standardValue>
+    <standardValue>
+        <fullName>test status</fullName>
+        <default>false</default>
+        <label>test status</label>
+        <converted>false</converted>
+    </standardValue>
 </StandardValueSet>
