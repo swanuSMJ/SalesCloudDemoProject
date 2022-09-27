@@ -12,10 +12,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>AccountId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
                 <field>ContactId</field>
             </layoutItems>
             <layoutItems>
@@ -33,26 +29,10 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>FirstName</field>
-            </layoutItems>
-            <layoutItems>
                 <emptySpace>true</emptySpace>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>LastName</field>
-            </layoutItems>
-            <layoutItems>
                 <emptySpace>true</emptySpace>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Country</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>City</field>
             </layoutItems>
             <layoutItems>
                 <emptySpace>true</emptySpace>
